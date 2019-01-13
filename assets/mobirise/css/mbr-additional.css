@@ -1771,22 +1771,23 @@ body {
   color: #ff3366 !important;
 }
 .cid-qGXBA44ILM {
-  background-image: url("../../../assets/images/moses-church-640x360.jpg");
+  background-color: #073b4c;
 }
 .cid-qGXBA44ILM .mbr-text,
 .cid-qGXBA44ILM .mbr-section-btn {
   color: #ffffff;
-  text-align: center;
+  text-align: left;
 }
 .cid-qGXBA44ILM .mbr-text,
 .cid-qGXBA44ILM .mbr-section-btn B {
-  color: #ffffff;
+  color: #ecc120;
 }
 .cid-qGXBA44ILM H1 {
   color: #149dcc;
+  text-align: left;
 }
 .cid-qGXBA44ILM I {
-  color: #f9f295;
+  color: #ff3366;
 }
 .cid-qGXBAcFIK1 {
   padding-top: 60px;
@@ -1860,12 +1861,12 @@ body {
 }
 .cid-qGXBzWNjjt .navbar {
   padding: .5rem 0;
-  background: #145fcc;
+  background: #8e0a32;
   transition: none;
   min-height: 77px;
 }
 .cid-qGXBzWNjjt .navbar-dropdown.bg-color.transparent.opened {
-  background: #145fcc;
+  background: #8e0a32;
 }
 .cid-qGXBzWNjjt a {
   font-style: normal;
@@ -1949,7 +1950,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qGXBzWNjjt .dropdown .dropdown-menu {
-  background: #145fcc;
+  background: #8e0a32;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2020,7 +2021,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #145fcc;
+  background-color: #f7ed4a;
 }
 .cid-qGXBzWNjjt button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
