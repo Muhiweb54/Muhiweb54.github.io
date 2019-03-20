@@ -1780,10 +1780,10 @@ body {
 }
 .cid-qGXBzWNjjt .nav-link:hover,
 .cid-qGXBzWNjjt .dropdown-item:hover {
-  color: #ff3366 !important;
+  color: #7f1933 !important;
 }
 .cid-qGXBA44ILM {
-  background-color: #232323;
+  background-image: url("../../../assets/images/moses5-2000x2000.jpg");
 }
 .cid-qGXBA44ILM .mbr-text,
 .cid-qGXBA44ILM .mbr-section-btn {
@@ -1800,6 +1800,95 @@ body {
 }
 .cid-qGXBA44ILM I {
   color: #fc004c;
+}
+.cid-rldC8aIBfs {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #073b4c;
+}
+.cid-rldC8aIBfs .mbr-section-subtitle {
+  color: #767676;
+  font-weight: 300;
+}
+.cid-rldC8aIBfs .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
+  align-items: stretch;
+  -webkit-align-items: stretch;
+}
+.cid-rldC8aIBfs .card_cont {
+  -o-transition: all .5s;
+  -ms-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  background-color: #eee;
+}
+.cid-rldC8aIBfs .card-front {
+  z-index: 2;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.cid-rldC8aIBfs .card-front img {
+  height: 100%;
+  min-width: 100%;
+  width: auto;
+}
+.cid-rldC8aIBfs .card_back {
+  width: 100%;
+  height: 100%;
+  padding: 30px 30px;
+  color: #ffffff;
+  background-color: #55b4d4;
+  z-index: 1;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  -o-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.cid-rldC8aIBfs .card {
+  min-height: 300px;
+}
+.cid-rldC8aIBfs .card:hover .card-front {
+  z-index: 1;
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.cid-rldC8aIBfs .card:hover .card_back {
+  z-index: 2;
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.cid-rldC8aIBfs .builderCard .card_back {
+  border-bottom-left-radius: 100px;
+}
+.cid-rldC8aIBfs .builderCard .card_cont {
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidd;
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
 }
 .cid-qGXBAcFIK1 {
   padding-top: 60px;
@@ -1870,68 +1959,6 @@ body {
 }
 .cid-qGXBAcFIK1 H5 {
   color: #ff3366;
-}
-.cid-rkKSIvRBd3 {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #000000;
-}
-.cid-rkKSIvRBd3 .mbr-slider .carousel-control {
-  background: #1b1b1b;
-}
-.cid-rkKSIvRBd3 .mbr-slider .carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
-}
-.cid-rkKSIvRBd3 .mbr-slider .carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
-}
-.cid-rkKSIvRBd3 .mbr-slider .modal-body .close {
-  background: #1b1b1b;
-}
-.cid-rkKSIvRBd3 .mbr-gallery-item > div::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #554346;
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
-}
-.cid-rkKSIvRBd3 .mbr-gallery-item > div:hover .mbr-gallery-title::before {
-  background: transparent !important;
-}
-.cid-rkKSIvRBd3 .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
-}
-.cid-rkKSIvRBd3 .mbr-gallery-title {
-  font-size: .9em;
-  position: absolute;
-  display: block;
-  width: 100%;
-  bottom: 0;
-  padding: 1rem;
-  color: #fff;
-  z-index: 2;
-}
-.cid-rkKSIvRBd3 .mbr-gallery-title:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  background: #554346 !important;
-  opacity: 0.7;
-  -webkit-transition: 0.2s background ease-in-out;
-  transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #554346, #45505b) !important;
 }
 .cid-qGXBzWNjjt .navbar {
   padding: .5rem 0;
